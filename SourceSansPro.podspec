@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = 'OpenSans'
+  spec.name = 'SourceSansPro'
   spec.version = '1.0.0'
   spec.summary = 'A podspec encapsulating Source Sans Pro font for iOS'
   spec.platform = :ios
