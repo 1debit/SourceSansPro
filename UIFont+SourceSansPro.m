@@ -5,7 +5,7 @@
 //
 
 #import <CoreText/CoreText.h>
-#import <OpenSans/UIFont+SourceSansPro.h>
+#import <SourceSansPro/UIFont+SourceSansPro.h>
 
 @interface KOSFontLoader : NSObject
 
