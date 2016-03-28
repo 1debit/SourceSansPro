@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SourceSansPro'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.summary = 'A podspec encapsulating Source Sans Pro font for iOS'
   spec.platform = :ios
   spec.source = { :git => 'https://github.com/1debit/SourceSansPro.git', :tag => spec.version.to_s }
