@@ -59,6 +59,11 @@
     return [self kosLoadAndReturnFont:@"SourceSansPro-It" size:size onceToken:&onceToken fontFileName:@"SourceSansPro-It"];
 }
 
++ (instancetype)openSansExtraLightFontOfSize:(CGFloat)size {
+    static dispatch_once_t onceToken;
+    return [self kosLoadAndReturnFont:@"SourceSansPro-ExtraLight" size:size onceToken:&onceToken fontFileName:@"SourceSansPro-Light"];
+}
+
 + (instancetype)openSansLightFontOfSize:(CGFloat)size {
     static dispatch_once_t onceToken;
     return [self kosLoadAndReturnFont:@"SourceSansPro-Light" size:size onceToken:&onceToken fontFileName:@"SourceSansPro-Light"];
