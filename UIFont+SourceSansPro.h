@@ -64,5 +64,17 @@
 */
 + (instancetype)openSansSemiBoldItalicFontOfSize:(CGFloat)size;
 
+/** Returns a font object for the Source Sans Pro Black font which has the specified size instead.
+ @param size The desired size (in points) of the new font object. This value must be greater than 0.0
+ @return A font object of the specified size.
+*/
++ (instancetype)openSansBlackFontOfSize:(CGFloat)size;
+
+/** Returns a font object for the Source Sans Pro Black Italic font which has the specified size instead.
+ @param size The desired size (in points) of the new font object. This value must be greater than 0.0
+ @return A font object of the specified size.
+*/
++ (instancetype)openSansBlackItalicFontOfSize:(CGFloat)size;
+
 @end
 

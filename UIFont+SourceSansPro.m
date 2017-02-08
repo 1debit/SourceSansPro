@@ -94,4 +94,14 @@
     return [self kosLoadAndReturnFont:@"SourceSansPro-SemiboldIt" size:size onceToken:&onceToken fontFileName:@"SourceSansPro-SemiboldIt"];
 }
 
++ (instancetype)openSansBlackFontOfSize:(CGFloat)size {
+    static dispatch_once_t onceToken;
+    return [self kosLoadAndReturnFont:@"SourceSansPro-Black" size:size onceToken:&onceToken fontFileName:@"SourceSansPro-Black"];
+}
+
++ (instancetype)openSansBlackItalicFontOfSize:(CGFloat)size {
+    static dispatch_once_t onceToken;
+    return [self kosLoadAndReturnFont:@"SourceSansPro-BlackIt" size:size onceToken:&onceToken fontFileName:@"SourceSansPro-BlackIt"];
+}
+
 @end
